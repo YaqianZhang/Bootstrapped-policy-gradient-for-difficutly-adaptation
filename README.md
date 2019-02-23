@@ -4,11 +4,11 @@ This is implementation for aamas'19 paper of "Bootstrapped Policy Gradient for D
 The folder of "Difficulty Adaptation" contains the implementation of BPG for difficultu adaptation using simulation data.
 To run the code using the following command:
 
-python main.py
+`python main.py`
 
 The folder of "continuous_bandit_bpg" contains the implementation of BPG for continuous-armed bandit.
 To run the code using the following command:
 
-python Continuous_Bandit_main_OO.py
+`python Continuous_Bandit_main_OO.py`
 
 
