@@ -1,7 +1,7 @@
 # Bootstrapped policy gradient for difficutly adaptation
 This is implementation for aamas'19 paper of ["Bootstrapped Policy Gradient for Difficulty Adaptation in Intelligent Tutoring Systems"](http://www.ifaamas.org/Proceedings/aamas2019/pdfs/p711.pdf).
 
-![](http://latex.codecogs.com/gif.latex?\\frac{1}{1+sin(x)})
+![](http://latex.codecogs.com/gif.latex?\\\log t)
 
 The folder of "Difficulty Adaptation" contains the implementation of BPG for difficultu adaptation using simulation data.
 To run the code using the following command:
