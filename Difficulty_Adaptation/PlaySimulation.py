@@ -22,7 +22,7 @@ class Simulator():
         #return (20-t_skill)*1.0/20
         u = np.random.rand()
         theta = 1
-        beta =0.9
+        beta =0.99
         prob=1.0/(1.0+np.exp(theta*(t_skill-s_skill)) )
         prob_success = beta * prob + (1-beta)*u
         

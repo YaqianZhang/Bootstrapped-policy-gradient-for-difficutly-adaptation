@@ -8,14 +8,7 @@ Created on Fri Nov  9 15:11:01 2018
 import numpy as np
 import matplotlib.pyplot as plt
 import time
-#def plotTracks(m_lists,names):
-#    updates=[100,1000,10000]
-#    for update_steps in updates:
-#        plt.figure()
-#    
-#        for mlist in m_lists:
-#            
-#            plotTrack(mlist,names,update_steps)
+
         
 def plotTrack(paths_algos,field_name,names,update_steps):
     legends=['r<','b.','-*','-<','-^','-v','-.*','-o','.-','*-','<-','-o','.-']
@@ -75,28 +68,28 @@ def showResult(batch_size,action_dim,paths_algos,names):
     #plt.title("Target action at 40")
     plt.ylabel("log(Cost)")
     plt.xlabel("log(Time Steps)")
+    fig = plt.gcf()
+    #fig.set_size_inches(18.5, 10.5)
+    fig.savefig('pic/logcost'+str(action_dim)+'.png', dpi=600)
     
-    update_range=[int(iters/5), iters]
-    
-   
-    
-    
-    for update_steps in update_range:
-        plt.figure()
-        plotTrack(paths_algos,'mean_list',names,update_steps)
-        
-        #plt.title("Mean #updates"+ str(update_steps))
-        plt.title("Mean #epoch:"+ str(update_steps/batch_size))
-        
+#    update_range=[int(iters/5), iters]
+#    
+#   
+#    
+#    
 #    for update_steps in update_range:
 #        plt.figure()
-#        plotTrack(f_list,names,update_steps)
-#        plt.title("features #updates"+ str(update_steps))
-    for update_steps in update_range:
-        plt.figure()
-        plotTrack(paths_algos,'action_list',names,update_steps)
-        #plt.title("Action value #updates"+ str(update_steps))
-        plt.title("Action value #epoch:"+ str(update_steps/batch_size))
+#        plotTrack(paths_algos,'mean_list',names,update_steps)
+#        
+#        #plt.title("Mean #updates"+ str(update_steps))
+#        plt.title("Mean #epoch:"+ str(update_steps/batch_size))
+#        
+#
+#    for update_steps in update_range:
+#        plt.figure()
+#        plotTrack(paths_algos,'action_list',names,update_steps)
+#        #plt.title("Action value #updates"+ str(update_steps))
+#        plt.title("Action value #epoch:"+ str(update_steps/batch_size))
         
         
 
