@@ -1,5 +1,5 @@
 # Bootstrapped policy gradient for difficutly adaptation
-This is implementation for aamas'19 paper of "Bootstrapped Policy Gradient for Difficulty Adaptation in Intelligent Tutoring Systems".
+This is implementation for aamas'19 paper of ["Bootstrapped Policy Gradient for Difficulty Adaptation in Intelligent Tutoring Systems"](https://github.com/YaqianZhang/yaqianzhang.github.io/blob/master/papers/17_YaqianZhang_Curvature_Cluster_InformationScience.pdf).
 
 The folder of "Difficulty Adaptation" contains the implementation of BPG for difficultu adaptation using simulation data.
 To run the code using the following command:
