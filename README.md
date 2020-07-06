@@ -4,7 +4,7 @@ More information on BPG project can be found at [here](https://yaqianzhang.githu
 ## What is Bootstrapped Policy Gradient (BPG)?
 BPG is a policy-based reinforcement learning algorithm which is stable with small batch size. The key idea is to improve the sample efficiency of policy gradient by updating the probability of _a set of actions_ instead of a single action in the gradient sample. Specifically, BPG employs a surrogate policy gradient direction to encourage _better actions_ and discourage _worse actions_.
 ## Key advantages of BPG
-BPG can achieve fast and stable convergence with small batch size (even batch size of 1). This makes it suitable for environments with large action space and short exploration horizon.
+BPG can achieve fast and stable convergence with small batch size (even with batch size of 1). This makes it suitable for environments with large action space and short exploration horizon.
 
 ## Source Code
 The folder of "Difficulty Adaptation" contains the implementation of BPG for difficulty adaptation using simulation data.
