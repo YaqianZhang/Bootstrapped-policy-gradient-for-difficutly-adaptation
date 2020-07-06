@@ -19,8 +19,9 @@ To run the code using the following command:
 `python Continuous_Bandit_main_OO.py`
 
 ## Dependencies：
-Python3
-numpy
-
+* Python3
+* numpy
+* sklearn
+* tensorflow
 
 
